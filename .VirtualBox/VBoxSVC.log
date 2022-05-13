@@ -1,0 +1,161 @@
+00:00:00.002712 main     VirtualBox COM Server 6.1.32 r149290 win.amd64 (Jan 17 2022 11:29:30) release log
+00:00:00.002714 main     Log opened 2022-04-08T05:32:49.469816400Z
+00:00:00.002714 main     Build Type: release
+00:00:00.002718 main     OS Product: Windows 11
+00:00:00.002719 main     OS Release: 10.0.22000
+00:00:00.002719 main     OS Service Pack: 
+00:00:00.061375 main     DMI Product Name: HP Pavilion Aero Laptop 13-be0xxx
+00:00:00.071233 main     DMI Product Version:  
+00:00:00.071242 main     Firmware type: UEFI
+00:00:00.071504 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.071526 main     Host RAM: 15717MB (15.3GB) total, 10577MB (10.3GB) available
+00:00:00.071531 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.071532 main     Process ID: 10264
+00:00:00.071533 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.158728          VirtualBox: object creation starts
+00:00:00.158961          Home directory: 'C:\Users\Hp\.VirtualBox'
+00:00:00.159067          Installed Drivers:
+00:00:00.160818            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.32.49290)
+00:00:00.161273            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.32.49290)
+00:00:00.161743            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 6.1.32.49290)
+00:00:00.162442            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.32.49290)
+00:00:00.165174          Loading settings file "C:\Users\Hp\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.167155          usbLibGetDevices: Starting USB device enumeration
+00:00:00.167304          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&1fc25ee&2&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:00:00.167347          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&1fc25ee&2&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:00:00.167481          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&24fdc84b&2&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:00:00.168292          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.168324          USB: Unknown USB device detected (idVendor: 0x04f3, idProduct: 0x0c00)
+00:00:00.168348          USB: Unknown USB device detected (idVendor: 0x05c8, idProduct: 0x03df)
+00:00:00.168360          USB: Unknown USB device detected (idVendor: 0x0bda, idProduct: 0x2852)
+00:00:00.267071          netIfIsWireless: CreateFile on '\\.\{628EF762-66A9-41D0-A765-98E76EB35C2B}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.271242          HostDnsMonitor: initializing
+00:00:00.279768          HostDnsMonitor: updating information
+00:00:00.279821          HostDnsMonitor: old information
+00:00:00.279822            no server entries
+00:00:00.279824            no domain set
+00:00:00.279825            no search string entries
+00:00:00.279825          HostDnsMonitor: new information
+00:00:00.279826            server 1: 172.16.20.28
+00:00:00.279828            server 2: 4.2.2.2
+00:00:00.279829            domain: dhcp.local
+00:00:00.279830            no search string entries
+00:00:00.307530          VD: VDInit finished with VINF_SUCCESS
+00:00:00.308357          Loading settings file "C:\Users\Hp\VirtualBox VMs\ubuntu\ubuntu.vbox" with version "1.16-windows"
+00:00:00.309032          VirtualBox: object created
+00:00:04.003031          Launched VM: 69378320 pid: 15204 (0x3b64) frontend: GUI/Qt name: ubuntu
+00:00:07.831424          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:09.019025 dns-monitor HostDnsMonitor: updating information
+00:00:09.019053 dns-monitor HostDnsMonitor: unchanged
+00:00:11.648313          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:11.736832          netIfIsWireless: CreateFile on '\\.\{628EF762-66A9-41D0-A765-98E76EB35C2B}' failed with rcWin=2 (0x2) - ignoring
+00:00:28.390790 dns-monitor HostDnsMonitor: updating information
+00:00:28.390818 dns-monitor HostDnsMonitor: unchanged
+00:00:34.394546 dns-monitor HostDnsMonitor: updating information
+00:00:34.394571 dns-monitor HostDnsMonitor: unchanged
+00:00:43.801495 dns-monitor HostDnsMonitor: updating information
+00:00:43.801526 dns-monitor HostDnsMonitor: unchanged
+00:00:48.369513 dns-monitor HostDnsMonitor: updating information
+00:00:48.369559 dns-monitor HostDnsMonitor: unchanged
+00:00:54.394784 dns-monitor HostDnsMonitor: updating information
+00:00:54.394810 dns-monitor HostDnsMonitor: unchanged
+00:01:00.374313 dns-monitor HostDnsMonitor: updating information
+00:01:00.374342 dns-monitor HostDnsMonitor: unchanged
+00:01:06.367381 dns-monitor HostDnsMonitor: updating information
+00:01:06.367412 dns-monitor HostDnsMonitor: unchanged
+00:01:12.676421 dns-monitor HostDnsMonitor: updating information
+00:01:12.676451 dns-monitor HostDnsMonitor: unchanged
+00:01:21.494851 dns-monitor HostDnsMonitor: updating information
+00:01:21.494894 dns-monitor HostDnsMonitor: unchanged
+00:01:24.383927 dns-monitor HostDnsMonitor: updating information
+00:01:24.383965 dns-monitor HostDnsMonitor: unchanged
+00:01:38.436055 dns-monitor HostDnsMonitor: updating information
+00:01:38.436081 dns-monitor HostDnsMonitor: unchanged
+00:01:46.401450 dns-monitor HostDnsMonitor: updating information
+00:01:46.401471 dns-monitor HostDnsMonitor: unchanged
+00:01:52.401334 dns-monitor HostDnsMonitor: updating information
+00:01:52.401364 dns-monitor HostDnsMonitor: unchanged
+00:01:58.434249 dns-monitor HostDnsMonitor: updating information
+00:01:58.434281 dns-monitor HostDnsMonitor: unchanged
+00:02:04.367102 dns-monitor HostDnsMonitor: updating information
+00:02:04.367132 dns-monitor HostDnsMonitor: unchanged
+00:02:10.455170 dns-monitor HostDnsMonitor: updating information
+00:02:10.455214 dns-monitor HostDnsMonitor: unchanged
+00:02:30.337308 dns-monitor HostDnsMonitor: updating information
+00:02:30.337338 dns-monitor HostDnsMonitor: unchanged
+00:02:36.396561 dns-monitor HostDnsMonitor: updating information
+00:02:36.396591 dns-monitor HostDnsMonitor: unchanged
+00:02:50.494218 dns-monitor HostDnsMonitor: updating information
+00:02:50.494243 dns-monitor HostDnsMonitor: unchanged
+00:02:56.521934 dns-monitor HostDnsMonitor: updating information
+00:02:56.521994 dns-monitor HostDnsMonitor: unchanged
+00:03:02.430274 dns-monitor HostDnsMonitor: updating information
+00:03:02.430309 dns-monitor HostDnsMonitor: unchanged
+00:03:08.413468 dns-monitor HostDnsMonitor: updating information
+00:03:08.413496 dns-monitor HostDnsMonitor: unchanged
+00:03:16.423693 dns-monitor HostDnsMonitor: updating information
+00:03:16.423733 dns-monitor HostDnsMonitor: unchanged
+00:03:22.384558 dns-monitor HostDnsMonitor: updating information
+00:03:22.384589 dns-monitor HostDnsMonitor: unchanged
+00:03:28.364545 dns-monitor HostDnsMonitor: updating information
+00:03:28.364575 dns-monitor HostDnsMonitor: unchanged
+00:03:34.654501 dns-monitor HostDnsMonitor: updating information
+00:03:34.654547 dns-monitor HostDnsMonitor: unchanged
+00:03:40.369170 dns-monitor HostDnsMonitor: updating information
+00:03:40.369200 dns-monitor HostDnsMonitor: unchanged
+00:03:49.514716 dns-monitor HostDnsMonitor: updating information
+00:03:49.514734 dns-monitor HostDnsMonitor: unchanged
+00:03:55.511650 dns-monitor HostDnsMonitor: updating information
+00:03:55.511680 dns-monitor HostDnsMonitor: unchanged
+00:03:58.337517 dns-monitor HostDnsMonitor: updating information
+00:03:58.337547 dns-monitor HostDnsMonitor: unchanged
+00:04:04.354651 dns-monitor HostDnsMonitor: updating information
+00:04:04.354683 dns-monitor HostDnsMonitor: unchanged
+00:04:10.595991 dns-monitor HostDnsMonitor: updating information
+00:04:10.596023 dns-monitor HostDnsMonitor: unchanged
+00:04:16.442548 dns-monitor HostDnsMonitor: updating information
+00:04:16.442585 dns-monitor HostDnsMonitor: unchanged
+00:04:22.732416 dns-monitor HostDnsMonitor: updating information
+00:04:22.732445 dns-monitor HostDnsMonitor: unchanged
+00:04:28.423127 dns-monitor HostDnsMonitor: updating information
+00:04:28.423174 dns-monitor HostDnsMonitor: unchanged
+00:04:34.489719 dns-monitor HostDnsMonitor: updating information
+00:04:34.489752 dns-monitor HostDnsMonitor: unchanged
+00:04:40.427410 dns-monitor HostDnsMonitor: updating information
+00:04:40.427432 dns-monitor HostDnsMonitor: unchanged
+00:05:02.459446 dns-monitor HostDnsMonitor: updating information
+00:05:02.459491 dns-monitor HostDnsMonitor: unchanged
+00:05:06.416390 dns-monitor HostDnsMonitor: updating information
+00:05:06.416420 dns-monitor HostDnsMonitor: unchanged
+00:05:12.468086 dns-monitor HostDnsMonitor: updating information
+00:05:12.468117 dns-monitor HostDnsMonitor: unchanged
+00:05:18.390935 dns-monitor HostDnsMonitor: updating information
+00:05:18.390968 dns-monitor HostDnsMonitor: unchanged
+00:05:24.730762 dns-monitor HostDnsMonitor: updating information
+00:05:24.730794 dns-monitor HostDnsMonitor: unchanged
+00:05:30.452569 dns-monitor HostDnsMonitor: updating information
+00:05:30.452593 dns-monitor HostDnsMonitor: unchanged
+00:05:50.438857 dns-monitor HostDnsMonitor: updating information
+00:05:50.438889 dns-monitor HostDnsMonitor: unchanged
+00:05:56.406827 dns-monitor HostDnsMonitor: updating information
+00:05:56.406872 dns-monitor HostDnsMonitor: unchanged
+00:11:23.410851 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:11:23.411213 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&1fc25ee&2&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:11:23.411352 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&1fc25ee&2&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:11:23.411616 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&24fdc84b&2&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:11:23.411882 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:25:38.276973 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:25:38.277322 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&1fc25ee&2&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:25:38.277415 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&1fc25ee&2&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:25:38.304052 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:25:45.878397          Saving settings file "C:\Users\Hp\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:25:45.891177          Saving settings file "C:\Users\Hp\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:25:54.313388          Saving settings file "C:\Users\Hp\VirtualBox VMs\ubuntu\ubuntu.vbox" with version "1.16-windows"
+00:26:07.709894          Saving settings file "C:\Users\Hp\VirtualBox VMs\ubuntu\ubuntu.vbox" with version "1.16-windows"
+00:26:08.187406 SaveState Saving settings file "C:\Users\Hp\VirtualBox VMs\ubuntu\ubuntu.vbox" with version "1.16-windows"
+00:26:14.854431 main     VirtualBox: object deletion starts
+00:26:14.854511 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\Hp\VirtualBox VMs\ubuntu\ubuntu.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:26:14.855653 main     HostDnsMonitor: shutting down ...
+00:26:14.855721 main     HostDnsMonitor: shut down
+00:26:14.857562 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:26:14.857813 main     VirtualBox: object deleted
